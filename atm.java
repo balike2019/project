@@ -1,0 +1,3 @@
+class Atm{
+String name;
+}
