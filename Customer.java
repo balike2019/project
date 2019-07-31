@@ -50,7 +50,7 @@ System.out.println("INSUFFICIENT FUNDS");
 } else{
 System.out.pintln("............l..........");
 
-accountBalance = accountBalance - withdrawal;
+accountBalance = accountBalance - withdrawalAmount;
 System.out.println("accountBalance"+accountBalance);
 System.out.println("withdrawalAount" +withdrawalAount);
 System.out.println("DO YOU WANT A RECIEPT (true for yes, false for no");
