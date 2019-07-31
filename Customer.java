@@ -12,5 +12,6 @@ double minimumDepositAmount;
 double maximumDepositAmount;
 double checkBalance;
 String reference;
-
+long   phoneNumber;
+String emailAdress;
 }
