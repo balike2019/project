@@ -16,6 +16,7 @@ double minimumDepositAmount;
 double maximumDepositAmount;
 double checkBalance;
 String reference;
+<<<<<<< HEAD
 
 Scanner=sc.Scanner(System.in);
 
@@ -36,4 +37,8 @@ System.out.println("");
 
 
 }
+=======
+long   phoneNumber;
+String emailAdress;
+>>>>>>> 30b8039101cffa8ae06c30649222c4b38ab01515
 }
