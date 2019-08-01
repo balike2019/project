@@ -1,6 +1,8 @@
-<<<<<<< HEAD
-class Customer{
-public String name;
+import java.util.Scanner;
+public class Customer{
+Scanner = sc.Scanner (System.in);
+
+public String  fullNames;
 public String emailAddress;
 public String gender;
 public long phoneNumber;
@@ -13,30 +15,9 @@ public double maximumAmount;
 public int pin;
 public String insertCard;
 public String accountBalance;
+public String reference;
 
-=======
-import java.util.Scanner;
-public class Customer{
-
-String fullNames;
-int pin;
-double balance;
-double amount;
-long accountNumber;
-double accountBalance;
-double withdrawalamount;
-double depositAmount;
-double minimumWithdrawalAmount;
->>>>>>> e17195164ca71f2adb979225ecfb33eb02c3d73d
-double maximumWithdrawalAmount;
-double minimumDepositAmount;
-double maximumDepositAmount;
-double checkBalance;
-String reference;
-<<<<<<< HEAD
-
-Scanner=sc.Scanner(System.in);
-
+Scanner sc = new Scanner(System.in);
 void deposit(){
 System.out.println(" insert card");
 
@@ -52,11 +33,20 @@ System.out.println("accountNumber= "+accountNumber);
 System.out.println("reference= "+reference);
 System.out.println("");
 
+double checkBalance(){;
+System.out.println("Enter pin");
+pin =sc. nextInt();
+System.out.println("select balance");
+System.out.println("1)print balance ,2)preview balance");
+
+int select;
+select = sc.nextInt();
+if(select == 1);
+System.out.println("print balance");
+}else{
+System.out.println("preview");
 
 }
-=======
-long   phoneNumber;
-String emailAdress;
->>>>>>> 30b8039101cffa8ae06c30649222c4b38ab01515
->>>>>>> 896f580cb9ed85f80200574bc5f62fae0c4156b7
+}
+
 }
