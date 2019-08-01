@@ -20,7 +20,7 @@ String reference;
 
 Scanner=sc.Scanner(System.in);
 
-void deposit(){
+public double deposit(){
 System.out.println(" insert card");
 
 System.out.println("Enter accountNumber");
@@ -33,12 +33,45 @@ System.out.println("Are you sure?");
 
 System.out.println("accountNumber= "+accountNumber);
 System.out.println("reference= "+reference);
-System.out.println("");
+sc.nextLine();
+System.out.println("Press 1 to continue or 2 to cancel");
 
+System.out.println("Enter fullName");
+fullName = sc.nextLine();
+
+System.out.println("Enter phoneNumber");
+phoneNumber = sc.nextLong();
+
+System.out.println("Minimum amount 20");
+System.out.println("Maximum notes 100");
+
+System.out.println("Enter depositAmount");
+depositAmount = sc.nextDouble();
+
+System.out.println("Confirm Deposit Details");
+System.out.println("accountNumber= "+accountNumber);
+System.out.println("reference= "+reference);
+sc.nextLine();
+System.out.println("fullNames= "+fullNames);
+System.out.println("amount= "+amount);
+
+int option;
+System.out.println("choose option");
+System.out.println("Proceed");
+System.out.println("Cancel");
+sc.nextLine();
+
+if (accountNumber==){
+System.out.println("Successful")
+}else{
+System.out.println("Fail");
+depositAmount = balance + depositAmount;
+}
+return balance;
 
 }
-=======
+
 long   phoneNumber;
 String emailAdress;
->>>>>>> 30b8039101cffa8ae06c30649222c4b38ab01515
+
 }
