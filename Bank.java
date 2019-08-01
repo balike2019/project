@@ -9,8 +9,8 @@ String emailAddress;
 String printReceipt;
 
 
-public void printReceipt(Customer c){
-System.out.println(""**********welcome to FNB*************");
+public void printReceipt(){
+System.out.println("**********welcome to FNB*************");
 System.out.println("JBURG Branch");
 System.out.println("call center #0875433245");
 System.out.println("fnb.co.za");
